@@ -1,0 +1,71 @@
+.content{
+    color: #fff;
+}
+
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+
+
+.animate-fadeIn {
+    animation: fadeIn 0.8s ease forwards;
+}
+
+
+.experience {
+    padding: 80px 10%;
+  }
+  
+  .section-title {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+  
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .experience-card {
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    transition: transform 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .experience-card h3 {
+    font-size: 22px;
+  }
+  
+  .experience-card h4 {
+    color: #aaa;
+    margin-bottom: 5px;
+  }
+  
+  .experience-duration {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 12px;
+  }
+  
+  .experience-card ul {
+    padding-left: 20px;
+  }
+  
+  .experience-card li {
+    margin-bottom: 6px;
+  }
