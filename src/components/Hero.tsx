@@ -1,4 +1,3 @@
-import React from 'react'
 import './common/style.css';
 import { FaRegFilePdf } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";

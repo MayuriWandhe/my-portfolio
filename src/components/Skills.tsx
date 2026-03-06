@@ -1,5 +1,3 @@
-import React from 'react'
-import { MdOutlineWeb } from 'react-icons/md';
 import {
     FaHtml5,
     FaCss3Alt,

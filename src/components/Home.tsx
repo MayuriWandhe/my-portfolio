@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from './Hero'
 import Navbar from './navbar/Navbar'
 import About from './About'
