@@ -3,7 +3,9 @@ import Navbar from './navbar/Navbar'
 import About from './About'
 import Skills from './Skills'
 import Experience from './Experience'
-import Projects from './Project'
+import Project from './Project'
+import Education from './Education'
+import Contact from './Contact'
 
 const Home = () => {
   return (
@@ -15,7 +17,9 @@ const Home = () => {
             <About />
             <Skills />
             <Experience />
-            <Projects />
+            <Project />
+            <Education />
+            <Contact />
         </div>
         {/* <div className="absolute top-40 left-20 w-96 h-96 bg-indigo-600/20 blur-3xl rounded-full"></div> */}
     </div>
