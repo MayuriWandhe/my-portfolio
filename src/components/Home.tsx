@@ -12,7 +12,7 @@ const Home = () => {
     <div>
         <Navbar />
         
-        <div className='content bg-gradient-to-br from-[#0f172a] via-[#111827] to-[#1e1b4b]'>
+        <div className='content bg-gradient-to-r from-[#0f172a] via-[#111827] to-[#1e1b4b]'>
             <Hero />
             <About />
             <Skills />

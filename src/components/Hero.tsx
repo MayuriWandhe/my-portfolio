@@ -32,7 +32,7 @@ const Hero = () => {
                                         <a type='button' href="./assets/Resume/Mayuri-Wandhe SDE-3+years-2026.pdf"  
                                             className='px-6 py-3 bg-indigo-800 text-white rounded-lg font-medium inline-flex items-center gap-2 font-medium hover:bg-indigo-500 rounded-xl shadow-lg shadow-indigo-600/10 transition duration-300'>
                                             <FaRegFilePdf />
-                                        Download pdf
+                                            Download pdf
                                         </a>
                                     </div>
                                 
@@ -58,7 +58,7 @@ const Hero = () => {
                     </div>
                     <div className="flex md:justify-center md:items-center lg:justify-end lg:items-end">
                         <img src="./assets/images/Profile.jpeg" alt="profile-img" 
-                        className='w-100 flex justify-end rounded-2xl shadow-2xl shadow-indigo-900/40 ' />
+                        className='w-100 flex justify-end rounded-2xl shadow-2xl shadow-indigo-500/40 hover:-translate-y-2 duration-300 transition' />
                     </div>
                 </div>
             </div>

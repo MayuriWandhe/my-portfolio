@@ -3,14 +3,17 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id='about' className='min-h-screen flex items-center justify-center px-6 bg-gradient-to-b from-[#0b1120] to-[#111827]'>
+    <section id='about' className='min-h-screen flex items-center justify-center px-6 '>
         <motion.div className='max-w-4xl text-center'
             initial={{opacity:0, y:50}}
             whileInView={{opacity:1, y:0}}
             transition={{duration : 0.9, delay:0.3}}
             viewport={{once:true}}>
             <div className="text-center">
-                <p className='text-indigo-400 text-sm tracking-[0.2em] uppercase mb-3'>A little About Me</p>
+            {/* text-indigo-400 */}
+                <p className=' text-sm tracking-[0.2em] uppercase mb-3 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent'>
+                    A little About Me
+                </p>
                 <h2  className='text-4xl md:text-5xl font-bold text-white mb-8'>Who I Am & What I Do</h2> 
                 <div className="max-w-2xl space-y-6 text-gray-300 leading-relaxed  mx-auto  text-center">
                     <p>

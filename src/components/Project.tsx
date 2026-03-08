@@ -46,7 +46,9 @@ const Project = () => {
         viewport={{once:true}}>
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
-                    <p className="text-indigo-500 uppercase tracking-[0.2em] mb-3">My work</p>
+                    <p className="text-indigo-500 uppercase tracking-[0.2em] mb-3 bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+                        My work
+                    </p>
                     <h3 className="text-4xl text-white font-bold mb-3">Featured Projects</h3>
                     <p className="text-gray-400 max-w-xl mx-auto">
                         A selection of projects showcasing my experience building

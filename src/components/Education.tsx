@@ -20,7 +20,7 @@ const Education = () => {
         viewport={{once:true}}>
             <div className='max-w-5xl mx-auto'>
                 <div className='text-center mb-16'>
-                    <p className='text-sm text-indigo-500 uppercase tracking-[0.2em] mb-3'>ACADEMIC BACKGROUND</p>
+                    <p className='text-sm bg-gradient-to-r from-indigo-500 to-purple-400 bg-clip-text text-transparent uppercase tracking-[0.2em] mb-3 '>ACADEMIC BACKGROUND</p>
                     <h3 className='text-4xl font-bold'>Education</h3>
             
                 </div>
