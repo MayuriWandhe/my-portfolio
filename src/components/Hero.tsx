@@ -144,7 +144,7 @@ const Hero = () => {
 
 
                 {/* CONTACT BUTTON */}
-                <div className="relative group">
+                {/* <div className="relative group">
 
                   <div className="absolute bottom-full mb-3 left-1/2 -translate-x-1/2 flex gap-4 opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
 
@@ -171,7 +171,7 @@ const Hero = () => {
                     Contact Me
                   </button>
 
-                </div>
+                </div> */}
 
               </div>
 
