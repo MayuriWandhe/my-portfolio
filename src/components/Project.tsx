@@ -44,7 +44,7 @@ const Project = () => {
         whileInView={{opacity:1, y:0}}
         transition={{duration:0.3, delay:0.9}}
         viewport={{once:true}}>
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-screen-xl mx-auto">
                 <div className="text-center mb-16">
                     <p className="text-indigo-500 uppercase tracking-[0.2em] mb-3 bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
                         My work

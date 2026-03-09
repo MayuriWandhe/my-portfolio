@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import { ExternalLink } from "lucide-react"
 
 const experience = [
     {
@@ -10,7 +11,8 @@ const experience = [
             "Built reusable UI components and responsive layouts",
             "Integrated REST APIs and optimized frontend performance",
             "Collaborated with backend and design teams"
-        ]
+        ],
+        website: 'https://instaacoders.com/company/careers/'
     },
     {
         company : 'Piexxi Technology LLP',
@@ -20,7 +22,8 @@ const experience = [
            "Developed responsive interfaces using Angular",
             "Worked on debugging and performance optimization",
             "Integrated API services for frontend communication"
-        ]
+        ],
+        website : 'https://piexxi.in/'
     },
     {
         company : 'Procohat Technology Pvt Ltd',
@@ -30,7 +33,8 @@ const experience = [
             "Built UI components using Angular and Angular Material",
             "Implemented reactive forms and dynamic UI logic",
             "Improved application responsiveness and usability"
-        ]
+        ],
+        website : 'https://www.procohat.com/'
     }
 ]
 const Experience = () => {
@@ -50,8 +54,8 @@ const Experience = () => {
                         <div className="relative pl-12 mb-12 group" key={index}>
                         <div className="absolute left-0 top-2 w-8 h-8 rounded-full bg-indigo-500 border-4 border-black group-hover:scale-110 transition"></div>
                         <div className="bg-white/5 border border-white/10 backdrop-blur-sm p-6 rounded-xl rounded-xl hover:border-indigo-500/40 transition hover:bg-indigo-500/5 hover:-translate-y-2 duration-300">
-                            <h3 className="text-xl font-semibold text-white">{exp.role} </h3>
-                            <p className="text-indigo-400 text-sm">{exp.company}</p>
+                              <h3 className="text-xl font-semibold text-white">{exp.role} </h3>
+                            <p className="text-indigo-400 text-sm flex items-center gap-2">{exp.company} <a href={exp.website} target="_blank"> <ExternalLink size={18}/></a></p>
                             <p className="text-gray-400 text-sm mb-4">{exp.duration}</p>
                             <ul className="space-y-2">
                                 {exp.points.map((pt, i)=>(
