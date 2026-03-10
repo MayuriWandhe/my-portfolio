@@ -6,6 +6,7 @@ import Experience from './Experience'
 import Project from './Project'
 import Education from './Education'
 import Contact from './Contact'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
             <Project />
             <Education />
             <Contact />
+            <Footer />
         </div>
         {/* <div className="absolute top-40 left-20 w-96 h-96 bg-indigo-600/20 blur-3xl rounded-full"></div> */}
     </div>

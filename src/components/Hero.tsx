@@ -73,7 +73,6 @@
 
 import './common/style.css';
 import { FaRegFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoCallOutline } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
 import { MdPhoneAndroid } from "react-icons/md";
 import { motion } from 'framer-motion';
