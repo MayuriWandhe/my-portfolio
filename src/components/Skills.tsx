@@ -46,7 +46,7 @@ const Skills = () => {
                     <p className='text-indigo-400 uppercase tracking-[0.2em] text-sm  mb-3 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent'>
                         My Expertise
                     </p>
-                    <h2 className='text-4xl md:text-5xl font-bold'>Skiils & Technologies</h2>
+                    <h2 className='text-4xl md:text-5xl font-bold'>Skills & Technologies</h2>
                 </div>
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {skills.map((skill, index)=>{
